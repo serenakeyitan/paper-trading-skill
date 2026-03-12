@@ -1,7 +1,8 @@
 ---
 name: paper-trade
-description: Paper trade stocks and crypto via Alpaca. Guides beginners through setup, helps automate strategies, logs every action, and keeps you notified.
-metadata: {"clawdbot":{"emoji":"📈","requires":{"bins":["python3"]},"triggers":["trade","stock","buy stock","sell stock","paper trade","alpaca","crypto","portfolio","invest","trading"]}}
+description: Paper trade stocks and crypto via Alpaca. Guides beginners through setup, helps automate strategies, logs every action, and keeps you notified. Use when the user wants to trade stocks, buy crypto, check portfolio, automate trading strategies, or learn about investing.
+user-invocable: true
+argument-hint: [action or question]
 ---
 
 # Paper Trading Skill

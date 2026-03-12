@@ -1,12 +1,12 @@
 {
-  "name": "alpaca-papertrading",
-  "source": "./plugins/serenakeyitan/alpaca-papertrading",
-  "description": "Paper trade stocks and crypto via Alpaca from the terminal. Supports all order types (market, limit, stop, trailing stop, bracket), technical indicators (RSI, SMA, EMA, MACD, Bollinger Bands), Alpaca watchlists, trading analytics, and a custom strategy framework with DCA, RSI, and rebalance built-in.",
+  "name": "paper-trade",
+  "source": "./plugins/serenakeyitan/paper-trade",
+  "description": "Paper trade stocks and crypto via Alpaca from the terminal. Guides beginners through setup, supports all order types, 6 automated strategies, Bloomberg-style dashboard, and cron-based trade logging.",
   "version": "0.1.0",
   "author": {
     "name": "serenakeyitan"
   },
-  "repository": "https://github.com/serenakeyitan/alpaca-papertrading-CLI",
+  "repository": "https://github.com/serenakeyitan/paper-trading-skill",
   "license": "MIT",
   "keywords": [
     "trading",
@@ -14,8 +14,8 @@
     "crypto",
     "alpaca",
     "paper-trading",
-    "technical-analysis",
-    "portfolio"
+    "portfolio",
+    "strategies"
   ],
   "category": "finance",
   "tags": [
