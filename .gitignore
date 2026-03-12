@@ -1,0 +1,42 @@
+# API keys & secrets
+config.json
+.env
+*.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# State/logs (generated at runtime)
+strategies_state.json
+grid_state.json
+grid_bot.log
+strategy_manager.log
+tick.log
+trade_log.txt
+price_cache.json
+watchlist.json
+.dashboard.pid
+.reload
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
